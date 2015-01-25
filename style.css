@@ -1,0 +1,33 @@
+    @charset "UTF-8";  
+    /* Background-Styles */  
+      
+    body {  
+        margin:0px; padding:0px;  
+        background-color:#b0b0b0;  
+    }  
+    #main {  
+        background:#c4c0be url(images/headerSlice.png) repeat-x; 
+		background-color:#b0b0b0;   
+    }  
+    #main .container {  
+        background-image:url(images/headerUHS.png);  
+        background-repeat:no-repeat;
+        min-height:243px;  
+    }  
+    .container {  
+        width:641px;  
+        margin:0 auto;  
+        position:relative;  
+    }  
+	
+	#main .screenshot {  
+        background-image:url(images/screenshot.png);  
+        background-repeat:no-repeat;
+        min-height:648px;  
+    }  
+    .screenshot {  
+        width:1325px;  
+        margin:0 auto;  
+        position:relative;  
+    }  
+}  
